@@ -8,7 +8,7 @@
     <br/>
     <br/>
     <div class="row">
-      <div class="col-6 rounded m-1  shadow-lg">
+      <div class="col-5 rounded m-1  shadow-lg">
         <div>
             <img class="card-img-top" height="300px" src="https://wallpaperaccess.com/full/2213424.jpg" alt="Card image cap">
             <div class="card-body">
@@ -27,7 +27,7 @@
             </div>
           </div>
       </div>
-      <div class="col-5 rounded m-1  shadow-lg">
+      <div class="col-6 rounded m-1  shadow-lg">
         <div>
           <div class="card-body">
             <div class="row">
@@ -59,10 +59,7 @@
             <br/>
             <div class="row">
                 <a href="#" class="btn btn-primary btn-block">Change Credit Card Details</a>
-            </div>
-            
-            
-            
+            </div>   
           </div>
         </div>
       </div>

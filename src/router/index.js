@@ -34,7 +34,27 @@ const routes = [
     path: '/addcredit',
     name: 'CAddCre',
     component: () => import('../views/CAddCredit.vue')
-  }
+  },
+  {
+    path: '/account',
+    name: 'EAccount',
+    component: () => import('../views/EAccount.vue')
+  },
+  {
+    path: '/reqOt',
+    name: 'EReqOt',
+    component: () => import('../views/EReqOT.vue')
+  },
+  {
+    path: '/notify',
+    name: 'ENotify',
+    component: () => import('../views/ENotify.vue')
+  },
+  {
+    path: '/inquary',
+    name: 'EInquary',
+    component: () => import('../views/EInquary.vue')
+  },
 ]
 
 const router = new VueRouter({

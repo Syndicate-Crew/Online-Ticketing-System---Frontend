@@ -4,11 +4,16 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link> |
   
-      <router-link to="/credit">I-1</router-link> |
-      <router-link to="/accbal">I-2</router-link> |
-      <router-link to="/addcredit">I-3</router-link> |
+      <router-link to="/credit">IA-1</router-link> |
+      <router-link to="/accbal">IA-2</router-link> |
+      <router-link to="/addcredit">IA-3</router-link> |
 
-      
+      <router-link to="/account">IC-1 + IC-2</router-link> |  
+      <router-link to="/reqOt">IC-3</router-link> |   
+      <router-link to="/notify">IC-4 + IC-5</router-link> |
+      <router-link to="/inquary">IC-6</router-link> |
+
+
     </div>
     <router-view/>
   </div>
