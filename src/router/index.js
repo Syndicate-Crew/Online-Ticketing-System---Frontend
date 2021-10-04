@@ -55,6 +55,11 @@ const routes = [
     name: 'EInquary',
     component: () => import('../views/EInquary.vue')
   },
+  {
+    path: '/qrcode',
+    name: 'DQRCode',
+    component: () => import('../views/DqrCode.vue')
+  },
 ]
 
 const router = new VueRouter({

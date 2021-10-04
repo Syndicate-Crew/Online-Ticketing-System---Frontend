@@ -11,7 +11,9 @@
       <router-link to="/account">IC-1 + IC-2</router-link> |  
       <router-link to="/reqOt">IC-3</router-link> |   
       <router-link to="/notify">IC-4 + IC-5</router-link> |
-      <router-link to="/inquary">IC-6</router-link> |
+      <router-link to="/inquary">IC-6</router-link> | 
+      
+      <router-link to="/qrcode">IB-2</router-link> |
 
 
     </div>
