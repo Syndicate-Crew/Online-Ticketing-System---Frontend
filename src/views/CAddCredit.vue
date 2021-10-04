@@ -1,6 +1,7 @@
 <template>
-  <div class="container">
+<div>
     <Header />
+  <div class="container">
     <div class="row">
       <div class="col-6">
         <h1>Good Morning Kaveen!</h1>
@@ -70,9 +71,9 @@
                 </div>
                 <br />
                 <div class="row">
-                  <button class="btn btn-primary btn-lg">
+                   <router-link :to="{ name: 'CCredit' }" class="btn btn-primary btn-lg">
                     Add Credit To The Account
-                  </button>
+                    </router-link>
                 </div>
                 <br />
               </div>
@@ -81,7 +82,9 @@
         </div>
       </div>
     </div>
-    <Footer />
+    
+  </div>
+  <Footer />
   </div>
 </template>
 

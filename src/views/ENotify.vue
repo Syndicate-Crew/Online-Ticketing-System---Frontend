@@ -1,4 +1,6 @@
 <template>
+<div>
+  <Header />
   <div class="container">
       <div class="row">
       <div class="col-6">
@@ -107,7 +109,9 @@
                 <div class="col-sm-4">
                 </div>
                 <div class="col-sm-8">
-                   <a href="#" class="btn btn-success btn-sm">Add feedback inquiry</a>
+                    <router-link :to="{ name: 'EInquary' }" class="btn btn-success btn-sm">
+                    Add feedback inquiry
+                    </router-link>
                 </div>
             </div>
             </div>
@@ -118,11 +122,21 @@
       </div>
   </div>
   </div>
+      <Footer />
+  </div>
 </template>
 
 <script>
+
+import Header from "../components/Header.vue";
+import Footer from "../components/Footer.vue";
+
 export default {
-    name: "ENotify"
+    name: "ENotify",
+    components: {
+    Header,
+    Footer,
+  },
 }
 </script>
 

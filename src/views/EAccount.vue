@@ -1,4 +1,6 @@
 <template>
+<div>
+  <Header />
   <div class="container">
     <div class="row">
       <div class="col-6">
@@ -115,11 +117,15 @@
             </div>
             <br/>
             <div class="row">
-              <a href="#" class="btn btn-primary ">Request OT</a>
+              <router-link :to="{ name: 'EReqOt' }" class="btn btn-primary">
+                    Request OT
+                </router-link>
             </div>
             <br/>
             <div class="row">
-              <a href="#" class="btn btn-success ">History</a>
+              <router-link :to="{ name: 'ENotify' }" class="btn btn-success">
+                    History
+                </router-link>
             </div>
                
           </b-tab>
@@ -128,11 +134,21 @@
       </div>
   </div>
   </div>
+      <Footer />
+  </div>
 </template>
 
 <script>
+
+import Header from "../components/Header.vue";
+import Footer from "../components/Footer.vue";
+
 export default {
-    name: "EAccount"
+    name: "EAccount",
+    components: {
+    Header,
+    Footer,
+  },
 }
 </script>
 

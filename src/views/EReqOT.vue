@@ -1,4 +1,6 @@
 <template>
+<div>
+  <Header />
   <div class="container">
     <div class="row">
       <div class="col-6">
@@ -69,15 +71,17 @@
             <div class="col-md-7 p-2">
               <select class="form-select">
                 <option value="" hidden>Select</option>
-                <option value="Malabe_to_aturugiriya">Malabe to aturugiriya</option>
-                <option value="kandy_to_colombo">kandy to colombo</option>
-                <option value="matara_to_galle">matara to galle</option>
+                <option value="Malabe_to_aturugiriya">Malabe-aturugiriya</option>
+                <option value="kandy_to_colombo">kandy-colombo</option>
+                <option value="matara_to_galle">matara-galle</option>
 
               </select>
             </div>
             </div>
           <div class="form-group">
-                  <button class="btn btn-primary">Request</button>
+              <router-link :to="{ name: 'EAccount' }" class="btn btn-primary">
+                    Request
+              </router-link>
             <br/>   
           </div>
         </form>
@@ -88,11 +92,21 @@
 
 
 </div>
+    <Footer />
+  </div>
 </template>
 
 <script>
+
+import Header from "../components/Header.vue";
+import Footer from "../components/Footer.vue";
+
 export default {
-    name: "EReqOt"
+    name: "EReqOt",
+    components: {
+    Header,
+    Footer,
+  },
 }
 </script>
 

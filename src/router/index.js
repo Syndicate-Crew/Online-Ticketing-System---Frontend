@@ -1,30 +1,22 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
+import CCredit from '../views/CCredit.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
+
+   //1
   {
     path: '/',
-    name: 'Home',
-    component: Home
-  },
-  {
-    path: '/about',
-    name: 'About',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
-  },
-
-  //Add Credit to the Account
-  {
-    path: '/credit',
     name: 'CCredit',
-    component: () => import('../views/CCredit.vue')
+    component: CCredit
   },
+  // {
+  //   path: '/credit',
+  //   name: 'CCredit',
+  //   component: () => import('../views/CCredit.vue')
+  // },
   {
     path: '/accbal',
     name: 'CAccoBal',
@@ -35,6 +27,8 @@ const routes = [
     name: 'CAddCre',
     component: () => import('../views/CAddCredit.vue')
   },
+
+  //3
   {
     path: '/account',
     name: 'EAccount',
@@ -55,6 +49,7 @@ const routes = [
     name: 'EInquary',
     component: () => import('../views/EInquary.vue')
   },
+  //2
   {
     path: '/qrcode',
     name: 'DQRCode',

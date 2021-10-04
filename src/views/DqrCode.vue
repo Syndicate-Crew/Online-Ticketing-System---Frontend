@@ -1,4 +1,6 @@
 <template>
+<div>
+  <Header />
   <div class="container">
       <div class="row">
       <div class="col-6">
@@ -24,21 +26,37 @@
             <br/>
             <hr/>
 
+            <img
+            class="card-img-top"
+            height="300px"
+            width="100px"
+            src="https://blog.hubspot.com/hs-fs/hub/53/file-2457427390-jpg/00-Blog_Thinkstock_Images/qr-code.jpg?width=381&name=qr-code.jpg"
+            alt="Card image cap"
+          />
+
+        
     
         </div>  
         </div>      
         </div>
     </div>
    </div>
+       <Footer />
+  </div>
 </template>
 
 <script>
 
 // import QrcodeVue from 'qrcode.vue'
+import Header from "../components/Header.vue";
+import Footer from "../components/Footer.vue";
 
 export default {
     name: "DQRCode",
-
+components: {
+    Header,
+    Footer,
+  },
 
 }
 </script>

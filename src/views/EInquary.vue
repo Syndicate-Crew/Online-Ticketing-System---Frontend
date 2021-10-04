@@ -1,4 +1,6 @@
 <template>
+<div>
+  <Header />
   <div class="container">
     <div class="row">
       <div class="col-11 rounded m-1  shadow-lg">
@@ -53,7 +55,9 @@
                 </div>
             </div>
           <div class="form-group">
-                  <button class="btn btn-primary">Submit</button>
+              <router-link :to="{ name: 'ENotify' }" class="btn btn-primary">
+                    Submit
+              </router-link>
             <br/>   
           </div>
         </form>
@@ -64,11 +68,20 @@
 
 
 </div>
+    <Footer />
+  </div>
 </template>
 
 <script>
+import Header from "../components/Header.vue";
+import Footer from "../components/Footer.vue";
+
 export default {
-    name: "EInquary"
+    name: "EInquary",
+    components: {
+    Header,
+    Footer,
+  },
 }
 </script>
 

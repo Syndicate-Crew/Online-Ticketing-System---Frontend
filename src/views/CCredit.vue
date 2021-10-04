@@ -1,6 +1,7 @@
 <template>
+<div>
+  <Header />
   <div class="container">
-    <Header />
     <div class="row">
       <div class="col-6">
         <h1>Good Morning Kaveen!</h1>
@@ -42,7 +43,9 @@
               </div>
               <div class="col-sm-6">
                 <h4>
-                  sdufhybsd sdhfngiusd dshfgiujsd dsjfghnjsdk sdjgnjksdnbgsdg
+                  24/7,      
+                   Malabe Road,
+                    Aturuiriya
                 </h4>
               </div>
             </div>
@@ -70,6 +73,7 @@
           </div>
         </div>
       </div>
+    </div>
     </div>
     <Footer />
   </div>

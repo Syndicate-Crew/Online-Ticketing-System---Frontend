@@ -1,6 +1,8 @@
 <template>
-  <div class="container">
+<div>
     <Header />
+  <div class="container">
+    
     <div class="row">
       <div class="col-6">
         <h1>Good Morning Kaveen!</h1>
@@ -42,17 +44,21 @@
             </div>
             <br />
             <br />
+
+
             <div class="row">
-              <a href="#" class="btn btn-success btn-lg"
-                >Add Credit To Account</a
-              >
+              <router-link :to="{ name: 'CAddCre' }" class="btn btn-success btn-lg">
+                    Add Credit To Account
+                </router-link>
             </div>
             <br />
           </div>
         </div>
       </div>
     </div>
-    <Footer />
+    
+  </div>
+  <Footer />
   </div>
 </template>
 
