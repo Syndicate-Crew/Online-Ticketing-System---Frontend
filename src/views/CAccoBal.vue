@@ -44,7 +44,7 @@
               <br />
               <br />
 
-              <div class="row">
+              <div class="row w-75 mx-auto">
                 <router-link
                   :to="{ name: 'CAddCre' }"
                   class="btn btn-success btn-lg"

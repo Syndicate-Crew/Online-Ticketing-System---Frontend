@@ -62,13 +62,13 @@
                 </div>
                 <br />
                 <div class="form-group">
-                  <div class="row">
+                  <div class="row w-75 mx-auto">
                     <button class="btn btn-success btn-lg">
                       Edit Credit Card Details
                     </button>
                   </div>
                   <br />
-                  <div class="row">
+                  <div class="row w-75 mx-auto">
                     <router-link
                       :to="{ name: 'CCredit' }"
                       class="btn btn-primary btn-lg"

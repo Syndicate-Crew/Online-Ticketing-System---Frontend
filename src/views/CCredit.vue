@@ -22,10 +22,12 @@
               <div class="container">
                 <div class="row">
                   <div class="col-sm-6">
-                    <a href="#" class="btn btn-warning">Edit Profile</a>
+                    <a href="#" class="btn btn-outline-warning">Edit Profile</a>
                   </div>
                   <div class="col-sm-6">
-                    <a href="#" class="btn btn-danger">Delete Profile</a>
+                    <a href="#" class="btn btn-outline-danger"
+                      >Delete Profile</a
+                    >
                   </div>
                 </div>
               </div>
@@ -57,11 +59,11 @@
               </div>
               <br />
               <br />
-              <div class="row">
+              <div class="row w-75 mx-auto">
                 <a href="#" class="btn btn-warning btn-block">Edit Details</a>
               </div>
               <br />
-              <div class="row">
+              <div class="row w-75 mx-auto">
                 <a href="#" class="btn btn-primary btn-block"
                   >Change Credit Card Details</a
                 >

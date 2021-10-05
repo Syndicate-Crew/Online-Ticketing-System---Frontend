@@ -2,7 +2,7 @@
   <div>
     <Header />
     <div class="container">
-      <div class="row  p-5">
+      <div class="row p-5">
         <div class="col-6">
           <h1>Good Morning Kaveen!</h1>
         </div>
@@ -10,22 +10,26 @@
       <div class="row">
         <div class="col-4 rounded m-1  shadow-lg">
           <div>
-            <img
-              class="card-img-top"
-              height="300px"
-              src="https://wallpaperaccess.com/full/2213424.jpg"
-              alt="Card image cap"
-            />
+            <div col-md-5>
+              <img
+                class="card-img-top p-2"
+                height="300px"
+                src="https://wallpaperaccess.com/full/2213424.jpg"
+                alt="Card image cap"
+              />
+            </div>
             <div class="card-body">
               <h1>Kaveen Madushanka</h1>
               <h3>kaveen@gmail.com</h3>
               <div class="container">
                 <div class="row">
                   <div class="col-sm-6">
-                    <a href="#" class="btn btn-warning">Edit Profile</a>
+                    <a href="#" class="btn btn-outline-warning">Edit Profile</a>
                   </div>
                   <div class="col-sm-6">
-                    <a href="#" class="btn btn-danger">Delete Profile</a>
+                    <a href="#" class="btn btn-outline-danger"
+                      >Delete Profile</a
+                    >
                   </div>
                 </div>
               </div>
@@ -65,7 +69,7 @@
                   </div>
                 </div>
                 <br />
-                <div class="row">
+                <div class="row w-75 mx-auto">
                   <a href="#" class="btn btn-warning btn-block">Edit Details</a>
                 </div>
               </b-tab>
@@ -111,21 +115,21 @@
                   </div>
 
                   <div class="col-4">
-                    <a href="#" class="btn btn-success ">Add To Bank</a>
+                    <a href="#" class="btn btn-outline-success ">Add To Bank</a>
                   </div>
                 </div>
                 <br />
-                <div class="row">
+                <div class="row w-75 mx-auto">
                   <a href="#" class="btn btn-warning ">Edit Details</a>
                 </div>
                 <br />
-                <div class="row">
+                <div class="row w-75 mx-auto">
                   <router-link :to="{ name: 'EReqOt' }" class="btn btn-primary">
                     Request OT
                   </router-link>
                 </div>
                 <br />
-                <div class="row">
+                <div class="row w-75 mx-auto">
                   <router-link
                     :to="{ name: 'ENotify' }"
                     class="btn btn-success"
