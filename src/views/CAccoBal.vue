@@ -1,64 +1,64 @@
 <template>
-<div>
+  <div>
     <Header />
-  <div class="container">
-    
-    <div class="row">
-      <div class="col-6">
-        <h1>Good Morning Kaveen!</h1>
+    <div class="container">
+      <div class="row p-5">
+        <div class="col-6">
+          <h1>Good Morning Kaveen!</h1>
+        </div>
       </div>
-    </div>
-    <br />
-    <br />
-    <div class="row">
-      <div class="col-11 rounded m-1  shadow-lg">
-        <div>
-          <div class="card-body">
-            <div class="row">
-              <div class="col-sm-6">
-                <h3>Last Added Date:</h3>
+      <br />
+      <br />
+      <div class="row">
+        <div class="col-11 rounded m-1  shadow-lg">
+          <div>
+            <div class="card-body">
+              <div class="row">
+                <div class="col-sm-6">
+                  <h3>Last Added Date:</h3>
+                </div>
+                <div class="col-sm-6">
+                  <h4>01/07/2021</h4>
+                </div>
               </div>
-              <div class="col-sm-6">
-                <h4>01/07/2021</h4>
+              <br />
+              <br />
+              <div class="row">
+                <div class="col-sm-6">
+                  <h3>Last Added Amount:</h3>
+                </div>
+                <div class="col-sm-6">
+                  <h4>400 Credit</h4>
+                </div>
               </div>
-            </div>
-            <br />
-            <br />
-            <div class="row">
-              <div class="col-sm-6">
-                <h3>Last Added Amount:</h3>
+              <br />
+              <br />
+              <div class="row">
+                <div class="col-sm-6">
+                  <h3>Account Balance:</h3>
+                </div>
+                <div class="col-sm-6">
+                  <h4>150 Credit</h4>
+                </div>
               </div>
-              <div class="col-sm-6">
-                <h4>400 Credit</h4>
-              </div>
-            </div>
-            <br />
-            <br />
-            <div class="row">
-              <div class="col-sm-6">
-                <h3>Account Balance:</h3>
-              </div>
-              <div class="col-sm-6">
-                <h4>150 Credit</h4>
-              </div>
-            </div>
-            <br />
-            <br />
+              <br />
+              <br />
 
-
-            <div class="row">
-              <router-link :to="{ name: 'CAddCre' }" class="btn btn-success btn-lg">
-                    Add Credit To Account
+              <div class="row">
+                <router-link
+                  :to="{ name: 'CAddCre' }"
+                  class="btn btn-success btn-lg"
+                >
+                  Add Credit To Account
                 </router-link>
+              </div>
+              <br />
             </div>
-            <br />
           </div>
         </div>
       </div>
     </div>
-    
-  </div>
-  <Footer />
+    <Footer />
   </div>
 </template>
 
