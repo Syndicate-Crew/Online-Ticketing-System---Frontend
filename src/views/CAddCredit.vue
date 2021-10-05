@@ -2,8 +2,10 @@
   <div>
     <Header />
     <div class="container">
-      <div class="col-md-6">
-        <h1>Good Morning Kaveen!</h1>
+      <div class="row p-5">
+        <div class="col-md-6">
+          <h1>Good Morning Kaveen!</h1>
+        </div>
       </div>
       <div class="row">
         <div class="col-11 rounded m-1  shadow-lg">
