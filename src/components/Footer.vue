@@ -1,5 +1,7 @@
 <template>
-  <div class="container-fluid">
+  <div
+    class="container-fluid position-absolute bottom-0 start-50 translate-middle-x"
+  >
     <div class="row footer-container">
       <div class="col heading-section">
         <a href="/"><h2 class="text-start ms-5 logo-text">Bus eka</h2></a>
